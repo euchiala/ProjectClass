@@ -1,0 +1,45 @@
+.form-input { 
+    display: block;
+    height: 28px;
+    width: 308px;
+    margin-bottom: 1rem;
+    padding: 0.375rem 0.75rem;
+    color: #5F696B;
+    background-color: #FFFFFF;
+    border: 1px solid #ced4da;
+    border-radius: 0.35rem; 
+}
+#auteur_daten_year,#auteur_daten_month,#auteur_daten_day { 
+    height: 28px;
+    width: 208px;
+    margin-bottom: 1rem;
+    padding: 0.375rem 0.75rem;
+    color: #5F696B;
+    background-color: #FFFFFF;
+    border: 1px solid #ced4da;
+    border-radius: 0.35rem; 
+}
+label{
+    height: 40px;
+    width: 145px;
+    color: #41646E;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+.btn{
+    height: 28px ;
+    width: 200px ;
+    border-radius: 8px ;
+    background-color: #006982;
+    border-color: #006982;
+    color: #FFFFFF;
+    text-align: center ;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 0;
+    line-height: 24px;
+}
