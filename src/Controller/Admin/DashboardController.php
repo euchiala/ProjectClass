@@ -2,6 +2,7 @@
 
 namespace App\Controller\Admin;
 
+use App\Entity\Abonnement;
 use App\Entity\Auteur;
 use App\Entity\Categorie;
 use App\Entity\Editeur;
@@ -50,5 +51,6 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Gestion categorie', 'fas fa-list', Categorie::class);
         yield MenuItem::linkToCrud('Gestion editeur', 'fas fa-list', Editeur::class);
         yield MenuItem::linkToCrud('Gestion livre', 'fas fa-list', Livre::class);
+        yield MenuItem::linkToCrud('Gestion Abonnement', 'fas fa-list', Abonnement::class);
     }
 }
