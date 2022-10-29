@@ -1,14 +1,5 @@
-<link  type="text/css" rel="stylesheet" href={{ asset('auteur.css') }}>
 {{ form_start(form) }}
-    <div class="col">
-            {{ form_row(form.nom, { 'label' : 'Nom', 'attr' : { 'class' : 'form-input' }}) }}
-        </div>
-    <div class="col">
-            {{ form_row(form.prenom, { 'label' : 'Prénom', 'attr' : { 'class' : 'form-input' }}) }}
-        </div>
-    <div class="col" >
-            {{ form_row(form.daten, { 'label' : 'Date'}) }}
-    </div>
+      {{ form_widget(form) }}
     <button class="btn">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
 
